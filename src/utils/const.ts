@@ -34,7 +34,7 @@ const LINE_OPACITY = 0.4;
 // styling: map height
 const MAP_HEIGHT = 600;
 //set to `false` if you want to hide the road label characters
-const ROAD_LABEL_DISPLAY = true;
+const ROAD_LABEL_DISPLAY = false;
 //set to `true` if you want to display only the routes without showing the map.
 const PRIVACY_MODE = true;
 //set to `false` if you want to make light off as default, only effect when `PRIVACY_MODE` = false
@@ -42,7 +42,7 @@ const LIGHTS_ON = true;
 
 // IF you outside China please make sure IS_CHINESE = false
 const IS_CHINESE = false;
-const USE_ANIMATION_FOR_GRID = false;
+const USE_ANIMATION_FOR_GRID = true;
 const CHINESE_INFO_MESSAGE = (yearLength: number, year: string): string => {
   const yearStr = year === 'Total' ? '所有' : ` ${year} `;
   return `我用 App 记录自己跑步 ${yearLength} 年了，下面列表展示的是${yearStr}的数据`;
